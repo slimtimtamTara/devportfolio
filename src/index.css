@@ -13,6 +13,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* @font-face {
+  font-family: "Bluekendy";
+  src: url('./fonts/Bluekendy.ttf') format('ttf');
+} */
+/* @font-face {
+  font-family: "FatKat";
+  src: url('./fonts/DK\ Fat\ Kitty\ Kat.otf');
+} */
+.aboutTitle {
+  font-family: "Homemade Apple";
+  font-size: 30px;
+}
+.aboutContent {
+  font-family: "Tahoma";
+}
+h2 {
+  font-family: "Homemade Apple";
+}
+
+
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -28,6 +49,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: #fffdf2;
 }
 
 h1 {
