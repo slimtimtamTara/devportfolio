@@ -1,32 +1,15 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
+  font-family:  "Noto Sans", sans-serif;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-/* @font-face {
-  font-family: "Bluekendy";
-  src: url('./fonts/Bluekendy.ttf') format('ttf');
-} */
-/* @font-face {
-  font-family: "FatKat";
-  src: url('./fonts/DK\ Fat\ Kitty\ Kat.otf');
-} */
 .aboutTitle {
   font-family: "Homemade Apple";
   font-size: 30px;
 }
 .aboutContent {
-  font-family: "Tahoma";
+  font-family: "Noto Sans Display";
 }
 h2 {
   font-family: "Homemade Apple";
@@ -49,7 +32,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background: #fffdf2;
 }
 
 h1 {

@@ -11,7 +11,8 @@ export default defineConfig({
         'Nanum Myeongjo', 
         'Material+Icons', 
         'Noto Sans Display',
-        'Raleway'],
+        'Raleway',
+        'Noto Sans'],
         
       },
       custom: {
