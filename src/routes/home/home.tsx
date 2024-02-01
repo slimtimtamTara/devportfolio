@@ -3,7 +3,7 @@ import logo from '../../assets/logo.gif'
 import logoStill from '../../assets/logoStill.png'
 import { useTimer } from 'react-timer-hook';
 import { useState, useEffect } from "react"
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Home() {
@@ -29,12 +29,19 @@ function Home() {
                 <img className="logoCrop" src={GITURL} alt="loading..." />
                 <div className="logoButtonContainer">
                     <button className="logoButton"> by Tara Laughlin</button>
-                    <FontAwesomeIcon icon={faGithub} /> 
-                    <FontAwesomeIcon icon={faLinkedin} /> 
+                    <Link to="https://github.com/slimtimtamTara">
+                        <FontAwesomeIcon icon={faGithub}/> 
+                    </Link>
+                    <Link to="https://www.linkedin.com/in/tara-laughlin-08/">
+                        <FontAwesomeIcon icon={faLinkedin} /> 
+                    </Link>
+                    <Link to="https://www.linkedin.com/in/tara-laughlin-08/">
+                        <FontAwesomeIcon icon={faInstagramSquare} /> 
+                    </Link>
                 </div>           
                 </div>
             <div className="aboutContainer">
-                <div className="greetingHeader"> Hey, </div>
+            <div className="greetingHeader"> Hey, </div>
                 <div className="greetingSubheader"> GET TO KNOW A LITTLE ABOUT ME </div>
                 <div className="greetingContent">
                     <Link to="/about">Who am I</Link>
