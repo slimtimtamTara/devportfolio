@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "title": "tara",
+            "description": "example",
+            "tags": ["Tara", "tara"],
+            "mainTag": "ui"
+        },
+        {
+            "title": "Learning Golang",
+            "description": "Todo List Cli written in Golang to supplement my learning",
+            "tags": ["Golang", "Programming"],
+            "mainTag": "development"
+        },
+        {
+            "title": "MirrorWorlds",
+            "description": "example2",
+            "tags": ["Programming", "3D Modeling"],
+            "mainTag": "development"
+        },
+        {
+            "title": "The Vanishing",
+            "description": "example2",
+            "tags": ["3D Modeling", "Virtual Reality"],
+            "mainTag": "design"
+        },
+        {
+            "title": "Sondor",
+            "description": "example2",
+            "tags": ["Augmented Reality", "IOS"],
+            "mainTag": "design"
+        },
+        {
+            "title": "tara2",
+            "description": "example2",
+            "tags": ["Tara2", "tara2"],
+            "mainTag": "design"
+        },
+        {
+            "title": "tara2",
+            "description": "example2",
+            "tags": ["Tara2", "tara2"],
+            "mainTag": "design"
+        },
+        {
+            "title": "tara2",
+            "description": "example2",
+            "tags": ["Tara2", "tara2"],
+            "mainTag": "design"
+        }
+    ]
+}

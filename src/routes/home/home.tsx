@@ -46,7 +46,9 @@ function Home() {
                 <div className="greetingContent">
                     <Link to="/about">Who am I</Link>
                     <div > My experience</div>
-                    <div> and stuff I've worked on</div>
+                    <div>and</div>
+                    <Link to="/projects">stuff I've worked on</Link>
+                    
                 </div>
             </div>
         </div>

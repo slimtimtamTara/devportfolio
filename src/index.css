@@ -22,11 +22,11 @@ h2 {
 
 a {
   font-weight: 500;
-  color: #b0dde0;
+  color: var(--tara-light-blue);
   text-decoration: inherit;
 }
 a:hover {
-  color: #b0dde0;
+  color: var(--tara-light-blue);
 }
 
 body {
@@ -54,7 +54,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #b0dde0;
+  border-color: var(--tara-light-blue);
 }
 button:focus,
 button:focus-visible {
