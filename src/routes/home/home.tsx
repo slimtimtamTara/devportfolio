@@ -44,8 +44,8 @@ function Home() {
             <div className="greetingHeader"> Hey, </div>
                 <div className="greetingSubheader"> GET TO KNOW A LITTLE ABOUT ME </div>
                 <div className="greetingContent">
-                    <Link to="/about">Who am I</Link>
-                    <div > My experience</div>
+                    <Link to="/about">Who I am</Link>
+                    <Link to="/experience">my experience</Link>
                     <div className="stuffContainer">
                     <div className="fancyAnd">and</div>
                     <Link to="/projects">stuff I've worked on</Link>
