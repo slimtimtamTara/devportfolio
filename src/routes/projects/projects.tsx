@@ -7,14 +7,15 @@ function Projects() {
     
     return (
         <div>
-            My Experience
+            Projects
             <div className="projectContainer">
                 {content.projects.map((project) => 
                 <MediaCard 
                 title={project.title} 
                 description={project.description} 
                 tags={project.tags}
-                mainTag={project.mainTag}/>)}
+                mainTag={project.mainTag}
+                href={project.href}/>)}
             </div>
         </div>
     )

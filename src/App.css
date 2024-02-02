@@ -21,7 +21,10 @@
   color: inherit;
 }
 .greetingSubheader{
-  font-size: 20px;
+  font-size: 16px;
+    font-weight: bold;
+    color: #c8c8c8;
+    margin-bottom: 20px;
 }
 .logoCrop{
   object-fit: cover;
@@ -58,33 +61,13 @@
   --tara-photo-blue: #BAE9F2
 }
 
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.fancyAnd{
+  font-family: 'Homemade Apple';
+  margin-right: 10px;
+  font-size: 32px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.stuffContainer{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
 }

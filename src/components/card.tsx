@@ -9,6 +9,7 @@ import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 
 interface cardProps {
@@ -16,6 +17,7 @@ interface cardProps {
     description: string
     tags: string[]
     mainTag: string
+    href: string
 }
 function chooseColor(input: string){
     if (input === 'ui'){
@@ -57,7 +59,10 @@ const MediaCard = (props: cardProps) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Stack direction="row" spacing={1}>
+        <Stack direction="row" 
+        flexWrap="wrap"
+        useFlexGap
+        spacing={1}>
             {props.tags.map((tag) => 
              <Chip 
              label={tag}
@@ -69,10 +74,15 @@ const MediaCard = (props: cardProps) => {
             )}
            
         </Stack>
-        <Button size="small">
-            View
-        <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-        </Button>
+        <Link 
+        to={props.href}
+        target="_blank">
+            <Button 
+            size="small">
+                View
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+            </Button>
+        </Link>
       </CardActions>
     </Card>
   );

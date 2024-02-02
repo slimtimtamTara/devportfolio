@@ -46,9 +46,10 @@ function Home() {
                 <div className="greetingContent">
                     <Link to="/about">Who am I</Link>
                     <div > My experience</div>
-                    <div>and</div>
+                    <div className="stuffContainer">
+                    <div className="fancyAnd">and</div>
                     <Link to="/projects">stuff I've worked on</Link>
-                    
+                    </div>
                 </div>
             </div>
         </div>

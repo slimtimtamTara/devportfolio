@@ -3,3 +3,19 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.cardDetailTitle{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.cardDetailSubTitle{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.cardSubDetail{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

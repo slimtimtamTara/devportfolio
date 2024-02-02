@@ -3,50 +3,66 @@
         {
             "title": "tara",
             "description": "example",
-            "tags": ["Tara", "tara"],
-            "mainTag": "ui"
+            "tags": [
+                "Tara",
+                "tara"
+            ],
+            "mainTag": "ui",
+            "href": ""
         },
         {
             "title": "Learning Golang",
             "description": "Todo List Cli written in Golang to supplement my learning",
-            "tags": ["Golang", "Programming"],
-            "mainTag": "development"
+            "detailedDescription": "",
+            "tags": [
+                "Golang",
+                "Programming"
+            ],
+            "mainTag": "development",
+            "href": "https://github.com/slimtimtamTara/golang-task-tracker"
         },
         {
             "title": "MirrorWorlds",
-            "description": "example2",
-            "tags": ["Programming", "3D Modeling"],
-            "mainTag": "development"
+            "description": "A Multi-Target, Multi-Camera tracking dataset for computer vision research.",
+            "detailedDescription": "Mirror Worlds is an interdisciplinary project focused on creating a computing infrastructure for research across physical and digital environments. Each environment within Mirror Worlds is a two part system composed of a physical room/building and a coexisting virtual model of that physical space. Users of an environment are not just visitors to a physical space or virtual model, but are also participants whose behavior influences the environments’ forms and functions. The virtual and physical aspects of the environment are connected with one another through a coordinate-based data networking system to enable user interaction with the rest of the system including environment objects and other users.,",
+            "images": [
+                ""
+            ],
+            "contribution": "In 2017, I served as an undergraduate research assistant, contributing to a project at the confluence of art, animation, and computer science. My engagement with this endeavor was particularly fueled by the inherent intersections of these disciplines. At that juncture, my academic focus encompassed dual undergraduate degrees in art and animation, as well as computer science, and I was in the process of cultivating foundational knowledge in both domains. Within the framework of the project, my responsibilities were centered around the Unity Client, where I undertook the design of 3D models as assets for visual blob detection using Maya. These blob models were subsequently integrated into Unity, alongside other assets, to recreate lifelike scenarios for detection purposes. The culmination of this process involved ensuring the synchronization of virtual cameras within Unity with their real-world counterparts, the mirror tablets. This required precise alignment in terms of location and height, and the implementation of a script to invert the visual output of the cameras. The ultimate objective was to achieve a mirrored representation akin to real-world reflections when the Unity application ran on the tablets in the physical environment.",
+            "tags": [
+                "3D Modeling",
+                "Unity",
+                "Maya",
+                "C#",
+                "2017"
+            ],
+            "mainTag": "design",
+            "href": "/mirrorworld"
         },
         {
             "title": "The Vanishing",
-            "description": "example2",
-            "tags": ["3D Modeling", "Virtual Reality"],
-            "mainTag": "design"
+            "description": "The Vanishing is an interdisciplinary and collaborative project aiming to create empathy among the audience about the massive gender imbalance in India.",
+            "tags": [
+                "3D Modeling",
+                "Virtual Reality",
+                "Unity",
+                "Maya",
+                "2019"
+            ],
+            "contribution":"In 2019, I had the privilege of collaborating with Manisha Sharma on a profoundly impactful project named The Vanishing. Alongside three fellow Virginia Tech classmates, we collectively engineered an immersive virtual reality experience utilizing the synergies of Unity and Maya, complemented by poignant audio renditions of poems by Manisha. Drawing upon my academic background and expertise in animation and computer science, I played a pivotal role in both the artistic and technical facets of the project.  My responsibilities encompassed the comprehensive creation of assets and immersive elements within the application, extending to the nuanced aspects of lighting and texturizing components. Additionally, I contributed to enhancing user engagement by orchestrating a dynamic experience. Specifically, when users encountered particular segments of the virtual reality environment, carefully curated music and poetic recitations would seamlessly integrate, enhancing the overall emotive resonance of the immersive encounter.",
+            "detailedDescription":"The Vanishing is a project led by Manisha Sharma. It has been supported by external grants twice, ICAT SEED grant from Virginia Tech, and Autodesk. There have been many facets and iterations of the project, starting with Manisha's research in India to find out the level of awareness among the general public about female feticide, the phenomenon that has in large part, led to the imbalance. She later wrote and recorded a series of poems  based on insights gained from the research. Later, she partnered with Virginia Tech to created an immersive Virtual Reality experience that was completed in May 2019.",
+            "mainTag": "design",
+            "href": "/vanishing"
         },
         {
             "title": "Sondor",
             "description": "example2",
-            "tags": ["Augmented Reality", "IOS"],
-            "mainTag": "design"
-        },
-        {
-            "title": "tara2",
-            "description": "example2",
-            "tags": ["Tara2", "tara2"],
-            "mainTag": "design"
-        },
-        {
-            "title": "tara2",
-            "description": "example2",
-            "tags": ["Tara2", "tara2"],
-            "mainTag": "design"
-        },
-        {
-            "title": "tara2",
-            "description": "example2",
-            "tags": ["Tara2", "tara2"],
-            "mainTag": "design"
+            "tags": [
+                "Augmented Reality",
+                "IOS"
+            ],
+            "mainTag": "design",
+            "href": ""
         }
     ]
 }

@@ -6,6 +6,8 @@ import { Routes, Route } from "react-router-dom"
 import ResponsiveAppBar from './components/topNav'
 import Experience from './routes/experience/experience'
 import Projects from './routes/projects/projects'
+import MirrorWorld from './routes/projects/projectContent/mirrorworld'
+import Vanishing from './routes/projects/projectContent/vanishing'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -18,6 +20,8 @@ function App() {
         <Route path={'/experience'} element={<Experience/>}/>
         <Route path={'/projects'} element={<Projects/>}/>
         <Route path={'/'} element={<Home/>}/>
+        <Route path={'/vanishing'} element={<Vanishing/>}/>
+        <Route path={'/mirrorworld'} element={<MirrorWorld/>}/>
       </Routes>
     </>
   )
