@@ -24,6 +24,7 @@ a {
   font-weight: 500;
   color: var(--tara-dark-green);
   text-decoration: inherit;
+  padding-right: 10px;
 }
 a:hover {
   color: var(--tara-light-blue);

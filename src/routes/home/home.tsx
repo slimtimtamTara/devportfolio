@@ -28,7 +28,7 @@ function Home() {
             <div className="logoContainer">
                 <img className="logoCrop" src={GITURL} alt="loading..." />
                 <div className="logoButtonContainer">
-                    <button className="logoButton"> by Tara Laughlin</button>
+                    <button className="logoButton"> by Tara Laughlin (Scroll for More!)</button>
                     <Link to="https://github.com/slimtimtamTara">
                         <FontAwesomeIcon icon={faGithub}/> 
                     </Link>
@@ -45,7 +45,7 @@ function Home() {
                 <div className="greetingSubheader"> GET TO KNOW A LITTLE ABOUT ME </div>
                 <div className="greetingContent">
                     <Link to="/about">Who I am</Link>
-                    <Link to="/experience">my experience</Link>
+                    <Link to="https://www.linkedin.com/in/tara-laughlin-08/">my experience</Link>
                     <div className="stuffContainer">
                     <div className="fancyAnd">and</div>
                     <Link to="/projects">stuff I've worked on</Link>
