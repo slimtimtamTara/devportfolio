@@ -1,15 +1,5 @@
 {
     "projects": [
-        // {
-        //     "title": "tara",
-        //     "description": "example",
-        //     "tags": [
-        //         "Tara",
-        //         "tara"
-        //     ],
-        //     "mainTag": "ui",
-        //     "href": ""
-        // },
         {
             "title": "Learning Golang",
             "description": "Todo List Cli written in Golang to supplement my learning",
