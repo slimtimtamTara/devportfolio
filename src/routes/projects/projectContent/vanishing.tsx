@@ -5,7 +5,7 @@ import content from '../projectContent.json'
 
 
 const Vanishing = () => {
-  const vanishing = content.projects[3]
+  const vanishing = content.projects[2]
   return (
      <div>
        <DetailCard

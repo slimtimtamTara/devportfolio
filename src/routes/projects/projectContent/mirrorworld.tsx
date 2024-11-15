@@ -5,7 +5,7 @@ import content from '../projectContent.json'
 
 
 const MirrorWorld = () => {
-  const mirrorworld = content.projects[2]
+  const mirrorworld = content.projects[1]
   return (
      <div>
        <DetailCard
