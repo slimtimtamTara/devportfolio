@@ -38,7 +38,7 @@ const MediaCard = (props: cardProps) => {
          }}>
       <CardMedia
         sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image=""
         title="green iguana"
       />
       <CardContent>
@@ -75,8 +75,7 @@ const MediaCard = (props: cardProps) => {
            
         </Stack>
         <Link 
-        to={props.href}
-        target="_blank">
+        to={props.href} >
             <Button 
             size="small">
                 View
