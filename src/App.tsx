@@ -8,6 +8,7 @@ import Experience from './routes/experience/experience'
 import Projects from './routes/projects/projects'
 import MirrorWorld from './routes/projects/projectContent/mirrorworld'
 import Vanishing from './routes/projects/projectContent/vanishing'
+import Sondor from './routes/projects/projectContent/sondor'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
         <Route path={'/'} element={<Home/>}/>
         <Route path={'/vanishing'} element={<Vanishing/>}/>
         <Route path={'/mirrorworld'} element={<MirrorWorld/>}/>
+        <Route path={'/sondor'} element={<Sondor/>}/>
       </Routes>
     </>
   )

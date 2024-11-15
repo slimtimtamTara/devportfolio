@@ -46,11 +46,14 @@
         },
         {
             "title": "Sondor",
-            "description": "Under Construction",
+            "description": "Experience art through augmented reality. Everyone is living a life as vivid and complex as your own. Haven't you ever wanted to see what that's like?",
             "tags": [
                 "Augmented Reality",
-                "IOS"
+                "IOS",
+                "Swift"
             ],
+            "contribution":"I was responsible for the full development lifecycle of Sondor, from initial design and prototyping to final deployment. The application was built using Swift, optimized for use on iPhone and iPad devices, and integrated with ARKit to provide an augmented reality experience. This technology allowed users to interact with museum exhibits in new ways by overlaying digital animations and information onto real-world artwork. I designed and created all animations and motion graphics using Maya and After Effects, ensuring a cohesive visual experience that aligned with the project's educational goals. This combination of coding, design, and AR integration resulted in a user-friendly application that enhances museum visitors' engagement with art through interactive storytelling.",
+            "detailedDescription":"Originally conceived as a senior capstone project, Sondor has since evolved into a celebrated immersive art experience showcased at the renowned Taubman Museum of Art in Roanoke, Virginia in 2019. This project bridges technology and art, offering an accessible and educational journey for museum visitors. By seamlessly integrating augmented reality with traditional exhibitions, Sondor transforms paintings and sculptures into dynamic, living artworks. Visitors can use their phones or tablets to bring these pieces to life with captivating animations, soundscapes, and motion graphics, revealing hidden stories about the artists and their eras. The experience not only enriches the visual narrative but also deepens the connection between art and its audience.",
             "mainTag": "design",
             "href": "/sondor"
         }
