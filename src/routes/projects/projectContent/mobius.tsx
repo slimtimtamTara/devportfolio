@@ -5,7 +5,7 @@ import content from '../projectContent.json'
 
 
 const Mobius = () => {
-  const mobius = content.projects[1]
+  const mobius = content.projects[4]
   return (
      <div>
        <DetailCard
