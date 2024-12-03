@@ -9,6 +9,7 @@ import Projects from './routes/projects/projects'
 import MirrorWorld from './routes/projects/projectContent/mirrorworld'
 import Vanishing from './routes/projects/projectContent/vanishing'
 import Sondor from './routes/projects/projectContent/sondor'
+import Mobius from './routes/projects/projectContent/mobius'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
         <Route path={'/vanishing'} element={<Vanishing/>}/>
         <Route path={'/mirrorworld'} element={<MirrorWorld/>}/>
         <Route path={'/sondor'} element={<Sondor/>}/>
+        <Route path={'/mobius'} element={<Mobius/>}/>
       </Routes>
     </>
   )

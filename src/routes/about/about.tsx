@@ -25,7 +25,8 @@ function About() {
             <div className="aboutP"> 
                 She later moved to San Francisco and along with her work as an engineer, she acts as the 
                 Creative Director for Studio Tam. She has continued her work as a software engineer at an enterprise level, 
-                and is continuously learning to keep up with the fast paced environment of technology. 
+                and is continuously learning to keep up with the fast paced environment of technology. Checkout my old portfolio 
+                <a href="https://ltara8.wixsite.com/slimtimtam">here</a>
             </div>
             
             <div className="aboutContent"> 

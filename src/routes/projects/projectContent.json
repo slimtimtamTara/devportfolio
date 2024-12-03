@@ -56,6 +56,20 @@
             "detailedDescription":"Originally conceived as a senior capstone project, Sondor has since evolved into a celebrated immersive art experience showcased at the renowned Taubman Museum of Art in Roanoke, Virginia in 2019. This project bridges technology and art, offering an accessible and educational journey for museum visitors. By seamlessly integrating augmented reality with traditional exhibitions, Sondor transforms paintings and sculptures into dynamic, living artworks. Visitors can use their phones or tablets to bring these pieces to life with captivating animations, soundscapes, and motion graphics, revealing hidden stories about the artists and their eras. The experience not only enriches the visual narrative but also deepens the connection between art and its audience.",
             "mainTag": "design",
             "href": "/sondor"
+        },
+        {
+            "title": "Mobius Labyrinth",
+            "description": "Barney is a human who has been abducted by aliens to participate in their insane alien game show. Can you help him find all the blueprints to escape the spaceship?",
+            "tags": [
+                "Video Game Design",
+                "2D Animation",
+                "macOS",
+                "Swift"
+            ],
+            "contribution": "I played a pivotal role in bringing Mobius Labyrinth to life. My responsibilities included designing and animating all in-game sprites, breathing life into the game’s characters and environments. I utilized Adobe Photoshop to create 2D pixelated characters that evoke a vintage aesthetic. By meticulously crafting each frame of animation, I ensured that the game's visuals were both visually appealing and consistent with its retro-inspired theme. Additionally, I contributed to the game's core mechanics through C# coding, ensuring smooth gameplay and a captivating user experience.",
+            "detailedDescription": "As a designer and developer, I contributed to the creation of Mobius Labyrinth, an innovative 2D infinite runner. In this game, players take on the role of Barney, a human abducted by aliens and stranded on their spaceship. The objective is to collect blueprints scattered across the vessel, but the twist lies in the labyrinthine, Mobius strip-like structure of the ship itself. With no true beginning or end, players are perpetually challenged to find the next blueprint, making for an endlessly engaging and mind-bending experience.",
+            "mainTag": "development",
+            "href": "/mobius"
         }
     ]
 }
